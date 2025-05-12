@@ -15,12 +15,12 @@ switch (respuesta) {
     let pesos = window.prompt("ingrese la cantidad de pesos");
 
     let dolares = convertCurrency(pesos);
-    console.log("el total en dolares seria: " + dolares);
+    window.alert("el total en dolares seria: " + dolares);
 
     break;
   case "2":
-    console.log("bye bye!");
+    window.alert("bye bye!");
 
   default:
-    console.log("elegí 1 o 2...");
+    window.prompt("elegí 1 o 2...");
 }
